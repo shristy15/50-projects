@@ -42,7 +42,7 @@ body{
     transform: translateY(-50%);
     height: 4px;
     z-index: -1;
-    transition: 0.4s ease;
+    
 }
 
 .progress{
@@ -54,11 +54,12 @@ body{
     transform: translateY(-50%);
     height: 4px;
     z-index: -1;
+    transition: 0.4s ease;
 }
 
 .circle{
     background-color: #fff;
-    color: #999;
+    color: #e2e2e2;
     border-radius: 50%;
     height: 30px;
     width: 30px;
@@ -76,12 +77,13 @@ body{
 .btn{
     background-color: var(--line-border-fill);
     border-radius: 6px;
-    color: white;
+    color: #fff;
     border: 0;
     padding: 8px 30px;
     margin: 5px;
     cursor: pointer;
     font-family: inherit;
+    font-size: 14px;
 }
 
 .btn:active{
